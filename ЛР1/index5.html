@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/style5.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1>Введіть число, яке ви бачите на пікселях</h1>
+    <div class="captcha-digit"></div><br>
+    <input type="text" id="user-input" oninput="toggleButton(numberCaptch)">
+
+    <button id="checkButton" onclick="checkCaptcha(numberCaptch)" disabled>Перевірити</button>
+    <p id="result"></p>
+    <script src="script/script5.js"></script>
+</body>
+</html>

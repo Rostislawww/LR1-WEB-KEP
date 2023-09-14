@@ -1,0 +1,23 @@
+h1 {
+    margin-top: 20px;
+}
+
+.captcha-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.captcha-digit {
+    display: flex;
+}
+
+.pixel {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+}
+
+.red {
+    background-color: red;
+}

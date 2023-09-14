@@ -1,0 +1,21 @@
+.table {
+    width: 100%;
+  }
+  
+  .table td {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .table td:first-child {
+    width: 100px;
+  }
+  
+  .table td:last-child {
+    width: 100px;
+  }
+img{
+    width: 400px;
+    height: 400px;
+}
